@@ -1,0 +1,20 @@
+{
+  "version": "1",
+  "manifest": {
+    "$BASE_DIR": "."
+  },
+  "networks": {
+    "nodes": [
+      {
+        "nodes_file": "$BASE_DIR/nodes.h5",
+        "node_types_file": "$BASE_DIR/node_types.csv"
+      }
+    ],
+    "edges": [
+      {
+        "edges_file": "$BASE_DIR/edges.h5",
+        "edge_types_file": "$BASE_DIR/edge_types.csv"
+      }
+    ]
+  }
+}

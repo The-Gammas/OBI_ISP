@@ -1,0 +1,5 @@
+.venv/
+backup/
+.idea/
+*.h5
+*.csv
